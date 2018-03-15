@@ -6,19 +6,23 @@ body {
   text-align: center;
 }
 
+
+
 #home {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   background-repeat: no-repeat;
-  height: 350px;
+  height: 400px;
+  overflow: hidden;
 }
 
 .menu {
   font-size: 18px;
   margin-bottom: 10px;
+  color: white;
 }
 
 h1 {
-  color: black;
+  color: white;
   font-size: 70px;
   font-weight: bold;
 }
@@ -40,6 +44,7 @@ p {
 .banner h2 {
   font-size: 23px;
   font-weight: bold;
+  color: white;
 }
 
 .banner {
@@ -48,17 +53,18 @@ p {
 
 footer {
   background-color: dimgray;
+  text-align: left;
 }
 
 .footer-p {
-  display: inline-block;
+  display: inline;
 }
 
 .footer-menu a {
   font-size: 11px;
-  display: inline-block;
+  display: inline;
 }
 
-.footer-menu {
-  text-align: left;
+.footer-nav {
+  display: inline;
 }
